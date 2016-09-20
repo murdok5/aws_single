@@ -14,7 +14,7 @@ class aws_single {
       'project'       => 'TSE Demo',
       'created_by'    => 'mike.smith',
     },
-    user_data         => template('linux.erb'),
+    user_data         => template('aws_single/linux.erb'),
   }
 
 }
