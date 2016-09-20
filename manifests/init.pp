@@ -7,7 +7,7 @@ class aws_single {
     instance_type     => 't2.small',
     key_name          => 'mikesmith-TSE',
     region            => 'us-west-2',
-    security_groups   => $::ec2_metadata['security-groups'],
+    security_groups   => 'sg-ea21f093',
     subnet            => 'subnet-54fccc30',
     tags              => {
       'department'    => 'TSE',
