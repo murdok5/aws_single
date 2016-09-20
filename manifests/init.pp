@@ -1,6 +1,6 @@
 class aws_single {
 
-  $pp_role = 'webserver',
+  $pp_role = 'webserver'
 
   ec2_instance { 'webserver':
     ensure            => 'running',
