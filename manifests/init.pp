@@ -1,5 +1,7 @@
 class aws_single {
 
+  $pp_role = 'webserver',
+
   ec2_instance { 'webserver':
     ensure            => 'running',
     availability_zone => $ec2_metadata['placement']['availability-zone'],
